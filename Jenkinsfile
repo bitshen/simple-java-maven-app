@@ -12,8 +12,8 @@ pipeline {
             }
         }
     }
-    options {
-        enforceMavenVersion('3.5.0+')
-        enforceJavaVersion('1.8.0-131+')
+    tools {
+        maven 'Maven 3.5.0'
+        jdk 'Java 1.8.0-131'
     }
 }
